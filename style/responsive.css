@@ -1,0 +1,38 @@
+
+@media only screen and (max-width: 1200px) {
+    .navbar li {
+        flex-direction: column;
+        margin: 10px 0px;
+    }
+    
+    .top {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .h-nav {
+        background-color: #090831 !important;
+        height: 72px !important;
+    }
+
+    .menu {
+        background-color: #090831;
+
+        position: absolute;
+        top: 1%;
+        right: 80px;
+    }
+    .notTop {
+        background-color: #fff;
+        color: #090831;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .burger {
+        display: block;
+    }
+    .o-nav {
+        opacity: 0;
+    }
+}
