@@ -1,0 +1,162 @@
+:root {
+    --clr-alpha: #090831;
+    --clr-beta: #ffffff;
+    --clr-gamma: #1f2522;
+    --clr-delta: dodgerblue;
+    --clr-charlie: rgb(165, 164, 164);
+
+}
+
+*,
+*::after, 
+*::before {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+.pixelBanner {
+
+    margin-top: 6rem;
+
+    position: relative;
+    max-width: 100%;
+    height: 60vh;
+
+    background: rgba(0, 0, 0, 0.7) url('../resources/images/pixelParanoia.png') fixed;
+    background-size: cover;
+    background-position: top -150px right 0%;
+
+    color: var(--clr-gamma);
+
+    display: flex;
+
+    align-items:flex-end;
+}
+
+.showMore {
+    padding: 20px 40px;
+    margin: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--clr-beta);
+    background-color: var(--clr-delta);
+
+    border: none;
+    border-radius: 5px;
+}
+
+#about {
+    background-color: var(--clr-alpha);
+    height: 30rem;
+}
+
+.aboutTitle {
+    width: 100%;
+}
+
+.row_ {
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutDesc {
+    width: 90%;
+}
+
+.aboutDesc p {
+    color: white;
+    line-height: 25px;
+
+    font-size: 20px;
+    margin: 15px 0px;
+
+    font-weight: 700;
+}
+
+.regButton {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.regButton_ {
+    padding: 10px 30px;
+
+    background: transparent;
+
+    color: var(--clr-delta);
+
+    border: 1px var(--clr-delta) solid;
+
+    border-radius: 5px;
+
+    cursor:pointer;
+
+    transition: .3s;
+}
+
+.regButton_:hover {
+    background-color: var(--clr-delta);
+
+    color: var(--clr-alpha);
+
+    transform: scale(1.1);
+}
+
+.guidelines {
+    color: var(--clr-gamma);
+    margin-top: 50px;
+
+    max-width: 100%;
+}
+
+.guidelines h1 {
+    font-weight: 700;
+}
+
+.glines {
+    width: 95%;
+    justify-content: start;
+    align-items: start;
+
+}
+
+.glines h2 {
+    width: 100%;
+
+    margin-top: 40px;
+}
+
+.glGd {
+    /* border: 1px solid black; */
+    width: 20%;
+    height: auto;
+}
+
+.glGd h3{
+    color: rgb(89, 248, 195);
+
+    font-size: 30px;
+
+    padding: 10px;
+}
+
+.glGd p {
+    padding: 10px;
+
+    line-height: 25px;
+
+    font-size: 20px;
+
+    font-weight: 300;
+}

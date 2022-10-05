@@ -84,16 +84,12 @@ header ul li a {
     margin: 0 15px;
 }
 
-header ul li :hover {
-    color: rgb(180, 180, 180);
-
-}
-
 .notTop {
-    padding: 10px 100px;
+    padding: 15px 100px;
     background-color: var(--clr-beta);
     box-shadow: 0 2px 5px -2px rgba(0,0,0,.4);
 }
+
 
 .notTop ul li i ,
 .notTop ul li a,
@@ -107,7 +103,7 @@ header ul li :hover {
 
 .banner {
     position: relative;
-    width: 100%;
+    max-width: 100%;
     height: 80vh;
 
     background: rgba(0, 0, 0, 0.7) url('../resources/images/backdrop.jpg') fixed;
@@ -117,17 +113,47 @@ header ul li :hover {
     color: var(--clr-gamma);
 }
 
-.menu {
+.navbar li {
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.navbar li:hover {
+    background: var(--clr-delta);
+}
+
+.dropdown, .dropdown_ {
+    cursor: pointer;
+}
+
+.dropdown_ ul {
+    position: absolute;
+    left: 108%;
+    top: 0%;
+}
+
+.showMenu, .showMenu2 {
+    display: block;
+    position: absolute;
+    background-color: var(--clr-gamma);
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+
+.menu, .menu2 {
     display: none;
 }
 
-.navbar li:hover .menu {
-    display: block;
-    position: absolute;
-    background-color: var(--clr-alpha);
-    margin-top: 15px;
-    margin-left: -15px;
-    
+.menu_ li, .menu_2 li {
+    padding: 10px 60px;
+}
+
+.menu_ li a p, .menu_2 li a p {
+    display: inline-flex !important;
+    flex-wrap: nowrap !important;
+
+    color: var(--clr-beta);
 }
 
 .navbar li:hover .menu ul {
@@ -215,7 +241,7 @@ h1 {
     width: 100%;
 }
 .awards .row {
-    padding-top: 5rem;
+    padding-top: 1rem;
 }
 
 .awardsTitle {
@@ -253,7 +279,7 @@ h1 {
     padding-top: 100px;
 }
 .awardsDescr {
-    margin-bottom: 200px;
+    /* margin-bottom: 20px; */
     
     font-weight: 600;
     font-size: 30px;
@@ -313,7 +339,7 @@ h1 {
 }
 
 .contact .container {
-    width: 100%;
+    width: 80%;
 }
 .contact .row {
     padding-top: 2rem;
@@ -420,7 +446,13 @@ h1 {
     width: 33px;
     height: 4px;
 
-    background-color: var(--clr-beta);
-
+    
     margin: 5px 3px;
+}
+
+.lineCol1 {
+    background: var(--clr-beta);
+}
+.lineCol2 {
+    background: var(--clr-alpha);
 }

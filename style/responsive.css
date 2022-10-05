@@ -1,4 +1,3 @@
-
 @media only screen and (max-width: 1200px) {
     .navbar li {
         flex-direction: column;
@@ -26,13 +25,70 @@
         background-color: #fff;
         color: #090831;
     }
-}
 
-@media only screen and (max-width: 900px) {
+    .cards {
+        width: 80%;
+        height: 300px;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .row_ {
+        padding-top: 52rem !important;
+    }
+    .awardsTitle {
+        margin-top: 50rem;
+    }
+    .awardsCard {
+        width: 40%;
+        border: 1px rgb(230, 230, 230) solid;
+        height: 20rem;
+
+    }
+
+    footer .awardsTitle{
+        margin-top: -5rem !important;
+    }
     .burger {
         display: block;
     }
     .o-nav {
         opacity: 0;
+    }
+    .height {
+        padding: 0px 100px;
+    }
+    .notTop {
+        height: 100px;
+    }
+    .contact .container {
+        width: 100%;
+    }
+
+    .scrolledNav {
+        background-color: white !important;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    
+    .awardsCard {
+        display: block;
+        width: 80%;
+        height: 15rem;
+    }
+
+    .awardsYear {
+        padding-top: 40px;
+    }
+   
+}
+
+@media only screen and (max-width: 610px) {
+    .awardsCard {
+        height: 18rem;
+    }
+    .footerCard {
+        display: block;
     }
 }
