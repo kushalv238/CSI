@@ -253,13 +253,26 @@ h1 {
     align-items: center;
 }
 
-.partner span img{
+.partner span img {
     height: 100%;
     max-width: 100%;
     display: block;
     margin: auto;
+
+    z-index: -1;
+    position: relative;
 }
 
 .partner h3 {
     color: var(--clr-gamma);
+}
+
+.partner span {
+    transition: .5s ;
+
+    height: 15rem;
+}
+.partner span:hover {
+    transform: scale(1.1);
+
 }
