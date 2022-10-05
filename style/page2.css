@@ -173,7 +173,7 @@ h1 {
 
     font-weight: 300;
 }
-/* 
+
 .classSplit {
     width: 50%;
     border: 2px blue solid;
@@ -188,19 +188,39 @@ h1 {
     width: 60%;
     height: auto;
 
-    border: 2px white solid;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .schMapInfo {
     width: 50%;
-    height: 20px;
-
-    border: 2px red solid;
+    height: auto;
 }
 
 .schMap .schMapInfo{
     justify-content: center;
 }
 .schMapInfo p {
-    color: var(--clr-beta);
-} */
+    color: white;
+
+    font-size: 20px;
+    line-height: 35px;
+
+    font-weight: 600;
+
+    padding: 20px;
+}
+
+.bBottom {
+    border-bottom: 2px solid white;
+}
+.bLeft {
+    border-left: 2px solid white;
+}
+.bRight {
+    border-right: 2px solid white;
+}
+
+.partner h1 {
+    color: var(--clr-alpha);
+}
