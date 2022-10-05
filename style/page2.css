@@ -182,6 +182,8 @@ h1 {
 .schedule {
     margin-top: 50px;
     background: var(--clr-alpha);
+
+    height: 60rem;
 }
 
 .schMap {
@@ -221,6 +223,43 @@ h1 {
     border-right: 2px solid white;
 }
 
-.partner h1 {
+.partnership h1 {
+    width: 100%;
     color: var(--clr-alpha);
+    height: auto;
+}
+
+.partners {
+    width: 60%;
+    height: auto;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partner {
+    width: 25%;
+    margin: auto;
+    height: auto;
+
+    padding: 15px;
+    
+    overflow: hidden;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.partner span img{
+    height: 100%;
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.partner h3 {
+    color: var(--clr-gamma);
 }
